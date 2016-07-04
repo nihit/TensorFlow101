@@ -1,9 +1,10 @@
 """
-A simple 6 layer Convolutional Neural Network to recognize handwritten digits. On the MNIST dataset (http://yann.lecun.com/exdb/mnist/),
-this model achieves a 0.5% test error. 
+A simple 6 layer Convolutional Neural Network to recognize handwritten digits. 
+On the MNIST dataset (http://yann.lecun.com/exdb/mnist/), this model achieves a 0.5% test error. 
 
 This is meant as a tutorial/introduction to TensorFlow and is based on the MNIST model example in TensorFlow 
-(https://github.com/tensorflow/tensorflow/blob/master/tensorflow/models/image/mnist/convolutional.py). Read the accompanying README for more details.
+(https://github.com/tensorflow/tensorflow/blob/master/tensorflow/models/image/mnist/convolutional.py). 
+Read the accompanying README for more details.
 """
 from __future__ import absolute_import
 from __future__ import division
