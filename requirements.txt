@@ -1,5 +1,4 @@
 matplotlib == 1.5.1
 numpy == 1.11.0
-tensorflow == 0.7.1
 tsne == 0.1.5
 six == 1.10.0
