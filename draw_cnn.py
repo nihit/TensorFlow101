@@ -1,5 +1,5 @@
-#Gavin Ding (https://github.com/gwding) originally wrote a Python script to illustrate Convolutional Neural Network architectures.
-#I've made some minor modifications to the code.
+#Gavin Ding (https://github.com/gwding) originally wrote this Python script
+#to illustrate Convolutional Neural Network architectures. I've made some minor modifications to the code.
 
 """
 Copyright (c) 2016, Gavin Weiguang Ding
