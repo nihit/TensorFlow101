@@ -36,4 +36,15 @@ On the MNIST test dataset, this model achieves a **0.5%** test error.
 * In order to run the t-SNE visualization, you need the tsne and matplotlib Python modules. All these requirements are in the `requirements.txt` file.
 
 ## Hardware
-I trained my models on a AWS g2.2xlarge GPU instance, using a community AMI with TensorFlow pre-installed (ami-d8433cb8). For details about configuring the AWS instance, see this [tutorial](https://cs224d.stanford.edu/supplementary/aws-tutorial-2.pdf). 
+I trained my models on a AWS g2.2xlarge GPU instance, using a community AMI with TensorFlow pre-installed (ami-d8433cb8). For details about configuring the AWS instance, see this [tutorial](https://cs224d.stanford.edu/supplementary/aws-tutorial-2.pdf).
+
+## Run it
+
+To train a new model:<br/>
+`python mnist.py -train`
+
+To extract features using a trained model:<br/>
+`python mnist.py -features`
+
+To generate a t-SNE visualization:<br/>
+`python plot_tsne.py`

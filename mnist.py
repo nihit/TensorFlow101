@@ -16,6 +16,7 @@ import time
 import gzip
 import numpy
 import tensorflow as tf
+import argparse
 from six.moves import xrange
 
 class Config(object):
@@ -338,8 +339,14 @@ def classify():
       model.run_training(session)
 
 if __name__ == "__main__":
-  classify()
-  #extract_features()
+  parser = argparse.ArgumentParser()
+  parser.add_argument('-features', action='store_true')
+  parser.add_argument('-train', action='store_true')
+  options = parser.parse_args()
+  if options.train:
+    classify()
+  if options.features:
+    extract_features()
 
     
 
