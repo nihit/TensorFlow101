@@ -10,6 +10,9 @@ Here I have attempted to rewrite and extend this CNN model:
 * Qualitatively evaluate learned features using [t-Distributed Stochastic Neighbor Embedding](https://lvdmaaten.github.io/tsne/)
 * Make the code more modular - steps for adding training variables, constructing the model, adding the loss operation and training operation, creating the feed dictionary etc are now separated into different functions. Hopefully this is helpful in making the computational graph construction and execution more transparent and easy to understand.
 
+Found a bug? Have a suggestion to improve this code? Just want to chat? [Drop me a line](mailto:nihit@cs.stanford.edu).
+
+
 ## 6-layer CNN Architecture
 
 Constructed this figure using [Gavin Ding's](https://github.com/gwding/draw_convnet) Python script to illustrate CNN architectures, which is really neat and you should check it out! I modified this script slightly, and have included the modified script in this repo. 
